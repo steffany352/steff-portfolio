@@ -34,9 +34,9 @@ h1,h2,h3{
 
 nav{
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    padding:25px 10%;
+    padding:25px 40px;
+    position: relative;
 }
 
 nav ul{
