@@ -965,3 +965,61 @@ footer{
     );
     animation: pulseGlow 3s ease-in-out infinite;
 }
+
+/* GLOBAL MOBILE FIXES */
+
+@media (max-width: 768px){
+
+    nav{
+        padding:20px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
+        padding:40px 20px;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .hero h2{
+        font-size:1.2rem;
+    }
+
+    .hero-description{
+        font-size:1rem;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .contact{
+        padding:70px 20px;
+    }
+
+    .projects-container,
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-buttons{
+        flex-direction:column;
+    }
+
+    .hero-image img{
+        width:250px;
+        height:auto;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+
+    .footer-links{
+        gap:15px;
+    }
+
+}
